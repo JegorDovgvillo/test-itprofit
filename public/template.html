@@ -1,0 +1,74 @@
+<html lang="ru">
+  <head>
+    <title>smth</title>
+  </head>
+
+  <body>
+    <div id="overlay"></div>
+    <div id="root">
+      <div id="infoBlock"></div>
+      <form id="myForm" novalidate>
+        <label for="nameInput">Имя</label>
+        <input
+          name="name"
+          class="name correct"
+          id="nameInput"
+          type="text"
+          placeholder="Введите имя"
+        />
+        <div class="error" id="nameError"></div>
+        <label for="emailInput">Почта</label>
+        <input
+          name="email"
+          class="email correct"
+          id="emailInput"
+          type="email"
+          placeholder="Введите почту"
+          
+        />
+        <div class="error" id="emailError"></div>
+        <label for="phoneInput">Телефон</label>
+        <input
+          name="phone"
+          class="phone correct"
+          id="phoneInput"
+          type="text"
+          placeholder="Введите номер телефона"
+        />
+        <div class="error" id="phoneError"></div>
+        <label for="messageText">Сообщение</label>
+        <textarea
+          name="message"
+          class="message correct"
+          id="messageText"
+          placeholder="Напишите свое сообщение"
+        ></textarea>
+        <div class="error" id="messageError"></div>
+        <button id="submitButton" type="submit">Зарегистрироваться</button>
+      </form>
+      <button class="modalbutton" type="button">Открыть модальное окно</button>
+      <div class="modalWindow">
+        <p>
+          Lorem ipsum dolor sit amet consectetur adipisicing elit. Cum, quidem,
+          explicabo quis dolorem sint eos necessitatibus laboriosam facere ullam
+          libero unde soluta ut expedita cumque. Voluptatibus minus vero
+          molestiae mollitia?
+        </p>
+        <svg
+          xmlns="http://www.w3.org/2000/svg"
+          height="2em"
+          viewBox="0 0 384 512"
+          id="cross"
+        >
+          <path
+            d="M342.6 150.6c12.5-12.5 12.5-32.8 0-45.3s-32.8-12.5-45.3 0L192 210.7 86.6 105.4c-12.5-12.5-32.8-12.5-45.3 0s-12.5 32.8 0 45.3L146.7 256 41.4 361.4c-12.5 12.5-12.5 32.8 0 45.3s32.8 12.5 45.3 0L192 301.3 297.4 406.6c12.5 12.5 32.8 12.5 45.3 0s12.5-32.8 0-45.3L237.3 256 342.6 150.6z"
+          />
+        </svg>
+      </div>
+    </div>
+    <script
+      src="https://kit.fontawesome.com/bbddb65099.js"
+      crossorigin="anonymous"
+    ></script>
+  </body>
+</html>
